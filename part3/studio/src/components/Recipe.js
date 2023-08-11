@@ -1,7 +1,7 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.sargento.com/";
+   let authorPhoto = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2lxTkO2jmp9Ue8_8wwE7wBlqQQFNIzfUBwLLJjr_JPj0pMvZqOtDWMVet1DUqfhzH-h4&usqp=CAU";
+   let authorName = "Sargento";
 
    return (
       <div>
@@ -15,7 +15,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["1 lb. uncooked shell pasta", "1 cup 1% milk", "16 ozs. cream chesse, softened", "1/2 cup pasta water (from cooking macaroni)", "1/2 cup buffalo wing hot sauce"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -34,8 +34,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Buffalo Chicken Mac & Cheese Casserole</h1>
+            <p>How to make a great buffalo chicken macaroni and cheese!</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -47,7 +47,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://www.sargento.com/assets/Uploads/Recipe/Image/BuffaloChickenMac_FillWzExNzAsNTgzXQ__FillWzExNzAsNTgzXQ.png" alt="Buffalo Chicken Mac & Cheese Casserole" className="imageUpdates"/>
    );
 }
 
